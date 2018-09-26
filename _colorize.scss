@@ -1,6 +1,10 @@
 $black: #000 !default;
 $white: #fff !default;
 
+$colors: (
+  pri: #ffa500,
+) !default;
+
 @function c($vars) {
 
   $name: nth($vars, 1);
